@@ -17,7 +17,7 @@ module.exports = function(environment) {
       apiKey: "AIzaSyDbXprwgNnejXRqjLgaqTECmaqy04oCCeY",
       authDomain: "answers-ced03.firebaseapp.com",
       databaseURL: "https://answers-ced03.firebaseio.com",
-      storageBucket: "answers-ced03.appspot.com",
+      storageBucket: "answers-ced03.appspot.com"
     },
 
     APP: {

@@ -3,9 +3,7 @@
 <div class="container">
   <ul>
     {{#each model as |question|}}
-       <li>{{question.question}}?</li>
-       <li>From: {{question.author}}</li>
-       <li>Additional info: {{question.note}}</li>
+       {{question-tile question=question destroyQuestion="destroyQuestion"}}
     {{/each}}
   </ul>
 </div>

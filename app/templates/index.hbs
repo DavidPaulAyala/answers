@@ -1,13 +1,11 @@
 <h1>Welcome to Q and A</h1>
 
-<h2>Questions</h2>
+<h2>Questions:</h2>
 
 <div class="container">
-  <ul>
-    {{#each model as |question|}}
-       {{question-tile question=question update="update" destroyQuestion="destroyQuestion"}}
-    {{/each}}
-  </ul>
+      {{#each model as |question|}}
+         {{question-tile question=question update="update" destroyQuestion="destroyQuestion"}}
+      {{/each}}
 </div>
 
 {{new-question saveQuestion="saveQuestion"}}

@@ -1,7 +1,7 @@
-<li>
+<div class="well">
 <p>{{question.content}}?</p>
 <p>From: {{question.author}}</p>
 <p>Additional Info: {{question.note}}</p>
 {{update-question question=question update="update"}}
 <button {{action 'delete' question}}>Delete Question</button>
-</li>
+</div>

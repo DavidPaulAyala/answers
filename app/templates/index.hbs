@@ -1,1 +1,14 @@
-{{outlet}}
+<h1>Welcome to Q & A</h1>
+
+<div class="container">
+  <ul>
+    {{#each model as |question|}}
+       <li>{{question.question}}?</li>
+       <li>From: {{question.author}}</li>
+       <li>Additional info: {{question.note}}</li>
+    {{/each}}
+  </ul>
+</div>
+
+
+{{#link-to 'index'}}Home{{/link-to}}

@@ -1,5 +1,6 @@
-<h2>{{model.author}}'s {{model.content}}</h2>
+<h2>{{model.content}}?</h2>
+<p>Asked by {{model.author}}</p>
 
-{{question-answer question=model update="update"}}
+{{update-question question=model update="update"}}
 
-{{question-detail question=model destroyQuestion="destroyQuestion"}}
+{{question-answer question=model destroyQuestion="destroyQuestion"}}

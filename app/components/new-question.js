@@ -9,9 +9,9 @@ export default Ember.Component.extend({
 
     saveQuestion() {
       var params = {
-        content: this.get('content'),
-        author: this.get('author'),
-        note: this.get('note'),
+        content: this.get('content') || "Why do people leave input fields blank sometimes",
+        author: this.get('author') || "Anonymous",
+        note: this.get('note') || "none entered",
       };
       this.set('addNewQuestion', false);
       this.sendAction('saveQuestion', params);

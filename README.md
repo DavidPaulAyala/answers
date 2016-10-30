@@ -1,7 +1,11 @@
-# Answers
+# _Answers_
+#### _October 28 2016_
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+#### By _**David Ayala**_
+
+## Description
+
+_This web app allows users to post questions and answers._
 
 ## Prerequisites
 
@@ -12,6 +16,17 @@ You will need the following things properly installed on your computer.
 * [Bower](http://bower.io/)
 * [Ember CLI](http://ember-cli.com/)
 * [PhantomJS](http://phantomjs.org/)
+
+## Technologies Used
+
+_Ember,
+JavaScript,
+NPM,
+Bower,
+Gulp,
+CSS,
+HTML,
+Bootstrap_
 
 ## Installation
 
@@ -39,15 +54,8 @@ Make use of the many generators for code, try `ember help generate` for more det
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Deploying
+## Licensing
 
-Specify what it takes to deploy your app.
+*This product can be used in accordance with the provisions under its MIT license.*
 
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
+copyright (c) 2016 **_David Ayala_**

@@ -6,14 +6,4 @@
       {{/each}}
 </div>
 
-{{new-question saveQuestion="saveQuestion"}}
-
-<h2> Answers </h2>
-
-<ul>
-  {{#each model.answers as |answer|}}
-    <li>{{answer.content}} - by {{answer.author}}</li>
-  {{/each}}
-</ul>
-
-{{new-answer saveAnswer="saveAnswer"}}
+{{new-question saveQuestion="saveQuestion" question=model}}

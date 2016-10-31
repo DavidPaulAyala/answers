@@ -1,7 +1,6 @@
-<div class="well">
+<div class="well" id="questions">
 {{#link-to 'question' question.id}}
-<p>{{question.content}}?</p>
-<p>From: {{question.author}}</p>
-<p>Additional Info: {{question.note}}</p>
+<h3>{{question.content}}</h3>
+<h3>Asked by: {{question.author}}</h3>
 {{/link-to}}
 </div>

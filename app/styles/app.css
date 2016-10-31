@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'eraserregular';
+    src: url('chalk-webfont.woff2') format('woff2'),
+         url('chalk-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.jumbotron {
+  background-image: url(img/chalkboard.jpg);
+  font-family: 'eraserregular';
+  color: white;
+  text-align: center;
+}
+
+.well {
+  background-image: url(img/chalkboard.jpg);
+}
+
+body {
+  color: white;
+  font-family: futura;
+  background: url(img/questions.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

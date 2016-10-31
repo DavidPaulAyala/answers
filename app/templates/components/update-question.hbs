@@ -1,4 +1,5 @@
 {{#if updateQuestionForm}}
+<div class="well">
   <h4>Edit {{question.author}}'s question</h4>
   <div>
     <form>
@@ -17,9 +18,10 @@
         {{input value=note id="note" placeholder=question.note}}
       </div>
 
-      <button {{action 'update' question}}>Save</button>
+      <button type="button" class="btn btn-primary" {{action 'update' question}}>Save</button>
     </form>
   </div>
+</div>
 {{else}}
-  <button {{action 'updateQuestionForm'}}>Edit Question</button>
+  <button type="button" class="btn btn-primary" {{action 'updateQuestionForm'}}>Edit Question</button>
 {{/if}}

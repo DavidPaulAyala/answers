@@ -1,8 +1,15 @@
+<div class="well">
+
 <h2>{{model.content}}?</h2>
 <p>Asked by {{model.author}}</p>
+<p>{{model.note}}</p>
+</div>
 
 {{update-question question=model update="update"}}
 
+
 {{question-answer question=model destroyQuestion="destroyQuestion" destroyAnswer="destroyAnswer"}}
+
+
 
 {{new-answer saveAnswer="saveAnswer" question=model}}

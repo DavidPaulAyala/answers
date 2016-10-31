@@ -11,7 +11,7 @@ export default Ember.Component.extend({
       var params = {
         content: this.get('content') || "Why do people leave input fields blank sometimes",
         author: this.get('author') || "Anonymous",
-        note: this.get('note') || "none entered",
+        note: this.get('note') || null,
       };
       this.set('addNewQuestion', false);
       this.sendAction('saveQuestion', params);

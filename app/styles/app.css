@@ -27,3 +27,15 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+
+h4 {
+  font-family: 'eraserregular';
+}
+
+input {
+  color: #337ab7;
+}
+
+textarea {
+  color: #337ab7;
+}

@@ -1,18 +1,14 @@
 { "questions": [{
-    "content": "Why do people love the Linux operating system",
-    "author": "David Whitaker",
-    "note": "not in a hurry"
+    "content": "Why do people love the Linux operating system?",
+    "author": "Vincent Vega",
+    "note": ""
   }, {
-    "content": "Having used both Android and iPhone, which is better",
-    "author": "Kelly Kingery",
-    "note": "just wondering"
+    "content": "Having used both Android and iPhone, which is better?",
+    "author": "Mia Wallace",
+    "note": ""
   }, {
-    "content": "Why is the programming community obsessed with the word hack",
-    "author": "Ronald McDonald",
-    "note": "serious question"
-  }],
-  "answers": [{
-    "author": "Mark Jones",
-    "content": "Sorry, I have no answer for this question."
-    }]
+    "content": "Why is the programming community obsessed with the word hack?",
+    "author": "Jules Winnfield",
+    "note": ""
+  }]
 }

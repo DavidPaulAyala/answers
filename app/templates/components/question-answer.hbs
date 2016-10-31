@@ -1,9 +1,10 @@
 <button type="button" class="btn btn-primary" {{action 'delete' question}}>Delete Question</button>
 
-
-<h2> Answers </h2>
-<ul>
-  {{#each question.answers as |answer|}}
-    {{answer-tile answer=answer destroyAnswer="destroyAnswer"}}
-  {{/each}}
-</ul>
+<div class="well">
+  <h2> Answers: </h2>
+  <ul>
+    {{#each question.answers as |answer|}}
+      {{answer-tile answer=answer destroyAnswer="destroyAnswer"}}
+    {{/each}}
+  </ul>
+</div>

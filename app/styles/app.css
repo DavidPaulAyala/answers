@@ -4,7 +4,15 @@
          url('chalk-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
 
+#navbar {
+  background-image: url(img/chalkboard.jpg);
+  color: white;
+}
+
+#brand {
+  color: #337ab7;
 }
 
 .jumbotron {

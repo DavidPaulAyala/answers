@@ -18,10 +18,10 @@
         {{input value=note id="note"}}
       </div>
 
-      <button type="button" class="btn btn-primary" {{action 'saveQuestion'}}>Ask Question</button>
+      <button type="button" class="btn btn-primary" {{action 'saveQuestion'}}>Ask New Question</button>
     </form>
   </div>
 </div>
 {{else}}
-  <button type="button" class="btn btn-primary" {{action 'questionFormShow'}}>New Question</button>
+  <button type="button" class="btn btn-primary" {{action 'questionFormShow'}}>Ask New Question</button>
 {{/if}}

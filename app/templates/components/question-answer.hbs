@@ -4,7 +4,7 @@
   <h2> Answers: </h2>
   <ul>
     {{#each question.answers as |answer|}}
-      {{answer-tile answer=answer destroyAnswer="destroyAnswer"}}
+      {{answer-tile answer=answer destroyAnswer="destroyAnswer" updateAnswer="updateAnswer"}}
     {{/each}}
   </ul>
 </div>

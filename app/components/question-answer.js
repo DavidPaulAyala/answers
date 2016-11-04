@@ -10,6 +10,14 @@ export default Ember.Component.extend({
     },
     destroyAnswer(answer) {
       this.sendAction('destroyAnswer', answer);
-    }
+    },
+    updateAnswer(answer, params) {
+     Object.keys(params).forEach(function(key) {
+       if(params[key] !== undefined) {
+         answer.set(key, params[key]);
+       }
+     });
+     answer.save();
+   }
   }
 });

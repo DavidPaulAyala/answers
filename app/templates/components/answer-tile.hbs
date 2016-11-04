@@ -2,5 +2,12 @@
 <p>{{answer.content}}</p>
 <p>Answered by {{answer.author}}</p>
 
+<button type="button" class="btn btn-primary" {{action 'upvote' answer}}>Upvote</button>
+<p>{{answer.vote}}</p>
+<button type="button" class="btn btn-primary" {{action 'downvote' answer}}>Downvote</button>
+
+<br>
+<br>
+
 <button type="button" class="btn btn-primary" {{action 'delete' answer}}>Delete Answer</button>
 </div>

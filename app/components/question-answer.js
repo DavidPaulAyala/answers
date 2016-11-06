@@ -2,6 +2,9 @@ import Ember from 'ember';
 
 export default Ember.Component.extend({
   updateQuestionForm: false,
+  sortBy: ['vote:desc'],
+  sortedAnswers: Ember.computed.sort('question.answers', 'sortBy'),
+
   actions: {
     delete(question) {
     if(confirm('Whoa!!! Do you REALLY want to delete this question?')) {

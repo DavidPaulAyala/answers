@@ -1,6 +1,13 @@
 <div class="well" id="questions">
-{{#link-to 'question' question.id}}
-<h3>{{question.content}}</h3>
-<h3>Asked by: {{question.author}}</h3>
-{{/link-to}}
+  <div class="row">
+    <div class="col-md-8">
+      {{#link-to 'question' question.id}}
+        <h3>{{question.content}}</h3>
+        <h3>Asked by: {{question.author}}</h3>
+      {{/link-to}}
+    </div>
+    <div class="col-md-3 qfbutton">
+      <button class="btn btn-primary" {{action 'addToList' question}}>Add to Favorite Question List</button>
+    </div>
+  </div>
 </div>

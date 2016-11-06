@@ -26,6 +26,10 @@
   background-image: url(img/chalkboard.jpg);
 }
 
+.qfbutton {
+  float: right;
+}
+
 body {
   color: white;
   font-family: futura;

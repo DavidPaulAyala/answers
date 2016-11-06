@@ -34,6 +34,10 @@
   float: right;
 }
 
+.vote {
+  float: right;
+}
+
 body {
   color: white;
   font-family: futura;

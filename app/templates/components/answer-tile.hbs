@@ -1,13 +1,15 @@
 <div class="well">
-<p>{{answer.content}}</p>
-<p>Answered by {{answer.author}}</p>
-
-<button type="button" class="btn btn-primary" {{action 'upvote' answer}}>Upvote</button>
-<p>{{answer.vote}}</p>
-<button type="button" class="btn btn-primary" {{action 'downvote' answer}}>Downvote</button>
-
-<br>
-<br>
-
-<button type="button" class="btn btn-primary" {{action 'delete' answer}}>Delete Answer</button>
+  <div class="row">
+    <div class="col-md-9">
+      <p>{{answer.content}}</p>
+      <p>Answered by {{answer.author}}</p>
+      <button type="button" class="btn btn-primary" {{action 'delete' answer}}>Delete Answer</button>
+    </div>
+    <div class="col-md-2 vote">
+      <p>Was this answer helpful?</p>
+      <a href="#" {{action 'upvote' answer}}><span class="glyphicon glyphicon-chevron-up"></span></a>
+      <p>{{answer.vote}}</p>
+      <a href="#" {{action 'downvote' answer}}><span class="glyphicon glyphicon-chevron-down"></span></a>
+    </div>
+  </div>
 </div>

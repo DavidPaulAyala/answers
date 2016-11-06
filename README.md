@@ -1,11 +1,11 @@
 # _Answers_
-#### _October 28 2016_
+#### _November 4, 2016_
 
 #### By _**David Ayala**_
 
 ## Description
 
-_This web app allows users to post questions and answers._
+_A question and answer board with the ability to upvote/downvote and create a list of favorite questions._
 
 ## Prerequisites
 
@@ -40,19 +40,6 @@ Bootstrap_
 * `ember server`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
 
 ## Licensing
 

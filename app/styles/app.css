@@ -30,6 +30,10 @@
   float: right;
 }
 
+.navButtons {
+  float: right;
+}
+
 body {
   color: white;
   font-family: futura;

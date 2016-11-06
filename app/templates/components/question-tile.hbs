@@ -4,6 +4,7 @@
       {{#link-to 'question' question.id}}
         <h3>{{question.content}}</h3>
         <h3>Asked by: {{question.author}}</h3>
+        {{answer-frequency question}}
       {{/link-to}}
     </div>
     <div class="col-md-3 qfbutton">
